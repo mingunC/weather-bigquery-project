@@ -1,0 +1,29 @@
+# Python 가상환경
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode / PyCharm 설정
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# 로그 및 데이터 파일
+*.log
+data/raw/
+data/processed/
+
+# 환경 변수 & 인증 키
+.env
+*.env
+gcp-key.json

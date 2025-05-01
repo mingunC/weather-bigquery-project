@@ -20,9 +20,9 @@ def load_json_from_gcs_to_bq(project_id, dataset_id, table_id, gcs_uri):
     print(f"Loaded {load_job.output_rows} rows into {project_id}.{dataset_id}.{table_id}.")
 
 if __name__ == "__main__":
-    PROJECT_ID   = "your-gcp-project-id"
+    PROJECT_ID   = "future-cat-458304-j8"
     DATASET_ID   = "weather_data"
     TABLE_ID     = "weather_20250429"
-    GCS_URI      = "gs://your-bucket/weather_data/processed_weather_YYYYMMDD_ld.json"
+    GCS_URI      = "gs://weather-data-bucket-cmgg919/weather_data/processed_weather_20250429_ld.json"
 
     load_json_from_gcs_to_bq(PROJECT_ID, DATASET_ID, TABLE_ID, GCS_URI)

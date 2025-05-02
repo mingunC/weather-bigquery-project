@@ -8,9 +8,8 @@
 
 ---
 
-<details>
-<summary> Repository Structure</summary>
-
+Repository Structure
+```text
 ## weather-bigquery-project/
 ├── .github/
 │   └── workflows/
@@ -26,7 +25,7 @@
 │   └── query_last7days.py       # 6. 7일 리포트 CSV 생성
 ├── .gitignore
 └── README.md
-
+```
 
 ## Prerequisites
 Python 3.9

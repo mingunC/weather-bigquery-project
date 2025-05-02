@@ -33,11 +33,12 @@ Service Account Key (JSON)
 GCP Project, BigQuery API, GCS Bucket
 GitHub Repository & GCP_SA_KEY Secret
 
-# Install packages in the local virtual environment
+## Install packages in the local virtual environment
 pip install \
   google-cloud-bigquery \
   pandas \
 
+## Local execution example
 1) Collect weather data → GCS
   python scripts/fetch_weather_data.py
   python scripts/transform_weather_data.py

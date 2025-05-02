@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2b4280-4c23-491a-99b9-1603bd99cc22" name="Changes" comment="ci: add daily ETL &amp; repor workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/bq_pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/bq_pipeline.yml" afterDir="false" />
-    </list>
+    <list default="true" id="6a2b4280-4c23-491a-99b9-1603bd99cc22" name="Changes" comment="ci: add daily ETL &amp; repor workflow" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

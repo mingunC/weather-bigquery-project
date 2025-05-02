@@ -28,6 +28,12 @@ jobs:
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
+      - name: Setup gcloud CLI
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: future-cat-458304-j8
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+
       - name: Load data to BigQuery
         run: python scripts/load_data_to_bigquery.py
 
@@ -37,7 +43,8 @@ jobs:
           python scripts/query_last7days.py
 
       - name: Upload report CSV to GCS
-        run: gsutil cp data/processed/last7days_*.csv gs://weather-data-bucket-cmgg919/reports/
+        run: |
+          gsutil cp data/processed/last7days_*.csv gs://weather-data-bucket-cmgg919/reports/
 
       - name: Commit report CSV
         run: |

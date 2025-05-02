@@ -58,13 +58,4 @@ As configured in /.github/workflows/bq_pipeline.yml, the following steps (1-4) w
 Daily at 06:00 UTC
 Manually (via Workflow Dispatch)
 
-## Next Steps
-Project 3: Migrate to fully managed workflows based on Airflow
-Add more SQL analysis and data visualization reports
-Modularization & Packaging: Deploy as pip install openweather-pipeline
-
- ## Credits
- Data Engineer Portfolio 
- Built with Google Cloud, GitHub Actions
-
 

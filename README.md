@@ -49,7 +49,7 @@ pip install \
   python scripts/query_bigquery_data.py
 4) Generate 7-day report (CSV)  
   python scripts/query_last7days.py
-  # → data/processed/last7days_YYYYMMDD.csv
+   → data/processed/last7days_YYYYMMDD.csv
 
 ##GitHub Actions Automation
 As configured in /.github/workflows/bq_pipeline.yml, the following steps (1-4) will be executed sequentially:

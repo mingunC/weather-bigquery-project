@@ -32,7 +32,9 @@ jobs:
         run: python scripts/load_data_to_bigquery.py
 
       - name: Query last 7 days and save CSV
-        run: python scripts/query_last7days.py
+        run: |
+          mkdir -p data/processed
+          python scripts/query_last7days.py
 
       - name: Upload report CSV to GCS
         run: gsutil cp data/processed/last7days_*.csv gs://weather-data-bucket-cmgg919/reports/

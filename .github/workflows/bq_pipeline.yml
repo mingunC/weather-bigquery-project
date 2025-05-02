@@ -51,5 +51,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data/processed/last7days_*.csv
-          git commit -m "chore: update last7days report"
-          git push
+          git commit -m "chore: update last7days report" || true
+          git push origin main || true

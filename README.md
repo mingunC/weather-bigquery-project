@@ -8,7 +8,7 @@
 
 ---
 
-##Repository Structure
+## Repository Structure
 ```text
 ## weather-bigquery-project/
 ├── .github/

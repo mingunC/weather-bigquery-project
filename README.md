@@ -6,6 +6,11 @@
 > 3) BigQuery SQL Analysis → CSV report  
 > 4) Automatically execute daily with the GitHub Actions scheduler 
 
+
+| Figure 1. Workflow File Structure | Figure 2. Workflow Run Success |
+|:--:|:--:|
+| <img src="./images/project2_workflow_file.png" alt="Workflow File Structure" width="500" /><br><em>Workflow definition in .github/workflows/bq_pipeline.yml</em> | <img src="./images/project2_workflow_run.png" alt="Workflow Run Success" width="500" /><br><em>Successful run of Daily ETL & Report workflow</em> |
+
 ---
 
 ## Repository Structure
